@@ -2,6 +2,9 @@
     background-color: rgba(3, 3, 78, 0.123);
     width: 40%;
     height: 350px; 
+    position: absolute;
+    top: 25%;
+    left: 30%;
 }
 .titulo-login{
     color:#800000;
