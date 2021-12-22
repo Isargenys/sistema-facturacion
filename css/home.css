@@ -1,7 +1,16 @@
 #titulo{
     color: brown;
    font: 50px arial;
+   text-align: center;
 }
 #botones{
-    border: 15px 5px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    width: 50%;
+    left: 20px;
+    height: 50px;
+
+    
+    
 }
