@@ -80,7 +80,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: login.php");
+                header("location: ../login/login.html");
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
             }
@@ -99,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>.:: Rico Sabor - Registro ::.</title>
+    <title>.:: Rico Sabor || Sistema de Facturacion - Registro ::.</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/register.css">
 </head>
